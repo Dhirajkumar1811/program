@@ -9,7 +9,11 @@ public class leet34 {
     public int[] SearchRange(int[] nums, int target) {
         int[] ans = {-1, -1};
         ans[0] = Search(nums, target, true);
-        ans[1]= Search(nums, target, false);
+        
+         if(ans[0] != -1){
+           ans[1] = Search(nums, target, false);
+         }
+       // ans[1]= Search(nums, target, false);
 
 //          ans[0] = start;
 //          ans[1] = end;
