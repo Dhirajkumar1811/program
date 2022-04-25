@@ -8,11 +8,11 @@ public class leet34 {
     }
     public int[] SearchRange(int[] nums, int target) {
         int[] ans = {-1, -1};
-        int start = Search(nums, target, true);
-        int end = Search(nums, target, false);
+        ans[0] = Search(nums, target, true);
+        ans[1]= Search(nums, target, false);
 
-         ans[0] = start;
-         ans[1] = end;
+//          ans[0] = start;
+//          ans[1] = end;
         return ans;
     }
     // this function return index of target
