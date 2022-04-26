@@ -1,7 +1,9 @@
 #include<iostream>
 using namespace std;
 int main(){
-    double num,den,divi;
+    double num,den;
+  //  double divi;
+    static double divi = 0;
     cout<<"\n Division";
     cout<<"\n Enter nemarator & denometer : ";
     cin>>num>>den;
