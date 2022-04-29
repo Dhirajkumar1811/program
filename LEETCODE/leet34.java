@@ -13,6 +13,7 @@ public class leet34 {
          if(ans[0] != -1){
            ans[1] = Search(nums, target, false);
          }
+       // ans[0] = Search(nums, target, true);
        // ans[1]= Search(nums, target, false);
 
 //          ans[0] = start;
